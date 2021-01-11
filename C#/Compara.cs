@@ -11,7 +11,7 @@ public class Compara
 
       //Utilizando a função de classe array para inverter o array de char
       Array.Reverse(value2);
-      string palindromo = new string(value2);//Passando como referência para uma string para a compararação
+      string palindromo = new string(value2);//Passando como referência a uma string para a compararação
       Console.WriteLine(palindromo);
 
       if(value1.Replace(" ", "") != palindromo.Replace(" ", "")){
