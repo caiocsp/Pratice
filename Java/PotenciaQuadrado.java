@@ -5,7 +5,7 @@ public class PotenciaQuadrado{
 	public static void main(String[] args){
 
 		 int[] arr = new int[5];//Vetor declarado vazio
-		 int i, resposta;
+		 int i;
 
 		 Scanner entrada = new Scanner(System.in);
 
